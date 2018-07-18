@@ -1,0 +1,11 @@
+S:\BizRuntime\training\c#\Collections_Non_Generics\Collections_Non_Generics\bin\Debug\netcoreapp2.0\Collections_Non_Generics.deps.json
+S:\BizRuntime\training\c#\Collections_Non_Generics\Collections_Non_Generics\bin\Debug\netcoreapp2.0\Collections_Non_Generics.runtimeconfig.json
+S:\BizRuntime\training\c#\Collections_Non_Generics\Collections_Non_Generics\bin\Debug\netcoreapp2.0\Collections_Non_Generics.runtimeconfig.dev.json
+S:\BizRuntime\training\c#\Collections_Non_Generics\Collections_Non_Generics\bin\Debug\netcoreapp2.0\Collections_Non_Generics.dll
+S:\BizRuntime\training\c#\Collections_Non_Generics\Collections_Non_Generics\bin\Debug\netcoreapp2.0\Collections_Non_Generics.pdb
+S:\BizRuntime\training\c#\Collections_Non_Generics\Collections_Non_Generics\obj\Debug\netcoreapp2.0\Collections_Non_Generics.csprojAssemblyReference.cache
+S:\BizRuntime\training\c#\Collections_Non_Generics\Collections_Non_Generics\obj\Debug\netcoreapp2.0\Collections_Non_Generics.csproj.CoreCompileInputs.cache
+S:\BizRuntime\training\c#\Collections_Non_Generics\Collections_Non_Generics\obj\Debug\netcoreapp2.0\Collections_Non_Generics.AssemblyInfoInputs.cache
+S:\BizRuntime\training\c#\Collections_Non_Generics\Collections_Non_Generics\obj\Debug\netcoreapp2.0\Collections_Non_Generics.AssemblyInfo.cs
+S:\BizRuntime\training\c#\Collections_Non_Generics\Collections_Non_Generics\obj\Debug\netcoreapp2.0\Collections_Non_Generics.dll
+S:\BizRuntime\training\c#\Collections_Non_Generics\Collections_Non_Generics\obj\Debug\netcoreapp2.0\Collections_Non_Generics.pdb

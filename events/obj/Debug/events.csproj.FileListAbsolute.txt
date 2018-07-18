@@ -1,0 +1,7 @@
+S:\BizRuntime\training\c#\events\events\bin\Debug\events.exe.config
+S:\BizRuntime\training\c#\events\events\bin\Debug\events.exe
+S:\BizRuntime\training\c#\events\events\bin\Debug\events.pdb
+S:\BizRuntime\training\c#\events\events\obj\Debug\events.csproj.CoreCompileInputs.cache
+S:\BizRuntime\training\c#\events\events\obj\Debug\events.exe
+S:\BizRuntime\training\c#\events\events\obj\Debug\events.pdb
+S:\BizRuntime\training\c#\events\events\obj\Debug\events.csprojAssemblyReference.cache

@@ -1,0 +1,7 @@
+S:\BizRuntime\training\c#\async_await\async_await\bin\Debug\async_await.exe.config
+S:\BizRuntime\training\c#\async_await\async_await\bin\Debug\async_await.exe
+S:\BizRuntime\training\c#\async_await\async_await\bin\Debug\async_await.pdb
+S:\BizRuntime\training\c#\async_await\async_await\obj\Debug\async_await.csprojAssemblyReference.cache
+S:\BizRuntime\training\c#\async_await\async_await\obj\Debug\async_await.csproj.CoreCompileInputs.cache
+S:\BizRuntime\training\c#\async_await\async_await\obj\Debug\async_await.exe
+S:\BizRuntime\training\c#\async_await\async_await\obj\Debug\async_await.pdb

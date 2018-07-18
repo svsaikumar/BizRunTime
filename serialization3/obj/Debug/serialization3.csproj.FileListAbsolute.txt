@@ -1,0 +1,14 @@
+S:\BizRuntime\training\c#\serialization3\serialization3\obj\Debug\serialization3.csprojAssemblyReference.cache
+S:\BizRuntime\training\c#\serialization3\serialization3\obj\Debug\serialization3.csproj.CoreCompileInputs.cache
+S:\BizRuntime\training\c#\serialization3\serialization3\bin\Debug\serialization3.exe.config
+S:\BizRuntime\training\c#\serialization3\serialization3\bin\Debug\serialization3.exe
+S:\BizRuntime\training\c#\serialization3\serialization3\bin\Debug\serialization3.pdb
+S:\BizRuntime\training\c#\serialization3\serialization3\obj\Debug\serialization3.exe
+S:\BizRuntime\training\c#\serialization3\serialization3\obj\Debug\serialization3.pdb
+S:\BizRuntime\training\c#\serialization3\serialization3\obj\Debug\Interop.MSOSOAPLib30.dll
+S:\BizRuntime\training\c#\serialization3\serialization3\obj\Debug\serialization3.csproj.ResolveComReference.cache
+S:\BizRuntime\training\c#\serialization3\serialization3\bin\Debug\Json.dll
+S:\BizRuntime\training\c#\serialization3\serialization3\bin\Debug\Newtonsoft.Json.dll
+S:\BizRuntime\training\c#\serialization3\serialization3\bin\Debug\Json.pdb
+S:\BizRuntime\training\c#\serialization3\serialization3\bin\Debug\Newtonsoft.Json.xml
+S:\BizRuntime\training\c#\serialization3\serialization3\obj\Debug\serialization3.csproj.CopyComplete

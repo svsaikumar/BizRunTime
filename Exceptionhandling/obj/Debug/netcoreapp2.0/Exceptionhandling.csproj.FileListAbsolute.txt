@@ -1,0 +1,11 @@
+S:\BizRuntime\training\c#\Exceptionhandling\Exceptionhandling\obj\Debug\netcoreapp2.0\Exceptionhandling.csprojAssemblyReference.cache
+S:\BizRuntime\training\c#\Exceptionhandling\Exceptionhandling\obj\Debug\netcoreapp2.0\Exceptionhandling.csproj.CoreCompileInputs.cache
+S:\BizRuntime\training\c#\Exceptionhandling\Exceptionhandling\obj\Debug\netcoreapp2.0\Exceptionhandling.AssemblyInfoInputs.cache
+S:\BizRuntime\training\c#\Exceptionhandling\Exceptionhandling\obj\Debug\netcoreapp2.0\Exceptionhandling.AssemblyInfo.cs
+S:\BizRuntime\training\c#\Exceptionhandling\Exceptionhandling\bin\Debug\netcoreapp2.0\Exceptionhandling.deps.json
+S:\BizRuntime\training\c#\Exceptionhandling\Exceptionhandling\bin\Debug\netcoreapp2.0\Exceptionhandling.runtimeconfig.json
+S:\BizRuntime\training\c#\Exceptionhandling\Exceptionhandling\bin\Debug\netcoreapp2.0\Exceptionhandling.runtimeconfig.dev.json
+S:\BizRuntime\training\c#\Exceptionhandling\Exceptionhandling\bin\Debug\netcoreapp2.0\Exceptionhandling.dll
+S:\BizRuntime\training\c#\Exceptionhandling\Exceptionhandling\bin\Debug\netcoreapp2.0\Exceptionhandling.pdb
+S:\BizRuntime\training\c#\Exceptionhandling\Exceptionhandling\obj\Debug\netcoreapp2.0\Exceptionhandling.dll
+S:\BizRuntime\training\c#\Exceptionhandling\Exceptionhandling\obj\Debug\netcoreapp2.0\Exceptionhandling.pdb

@@ -1,0 +1,11 @@
+S:\BizRuntime\training\c#\Collections_Concurrent\Collections_Concurrent\bin\Debug\netcoreapp2.0\Collections_Concurrent.deps.json
+S:\BizRuntime\training\c#\Collections_Concurrent\Collections_Concurrent\bin\Debug\netcoreapp2.0\Collections_Concurrent.runtimeconfig.json
+S:\BizRuntime\training\c#\Collections_Concurrent\Collections_Concurrent\bin\Debug\netcoreapp2.0\Collections_Concurrent.runtimeconfig.dev.json
+S:\BizRuntime\training\c#\Collections_Concurrent\Collections_Concurrent\bin\Debug\netcoreapp2.0\Collections_Concurrent.dll
+S:\BizRuntime\training\c#\Collections_Concurrent\Collections_Concurrent\bin\Debug\netcoreapp2.0\Collections_Concurrent.pdb
+S:\BizRuntime\training\c#\Collections_Concurrent\Collections_Concurrent\obj\Debug\netcoreapp2.0\Collections_Concurrent.csprojAssemblyReference.cache
+S:\BizRuntime\training\c#\Collections_Concurrent\Collections_Concurrent\obj\Debug\netcoreapp2.0\Collections_Concurrent.csproj.CoreCompileInputs.cache
+S:\BizRuntime\training\c#\Collections_Concurrent\Collections_Concurrent\obj\Debug\netcoreapp2.0\Collections_Concurrent.AssemblyInfoInputs.cache
+S:\BizRuntime\training\c#\Collections_Concurrent\Collections_Concurrent\obj\Debug\netcoreapp2.0\Collections_Concurrent.AssemblyInfo.cs
+S:\BizRuntime\training\c#\Collections_Concurrent\Collections_Concurrent\obj\Debug\netcoreapp2.0\Collections_Concurrent.dll
+S:\BizRuntime\training\c#\Collections_Concurrent\Collections_Concurrent\obj\Debug\netcoreapp2.0\Collections_Concurrent.pdb

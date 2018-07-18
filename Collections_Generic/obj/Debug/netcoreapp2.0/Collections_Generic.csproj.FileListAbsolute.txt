@@ -1,0 +1,11 @@
+S:\BizRuntime\training\c#\Collections_Generic\Collections_Generic\bin\Debug\netcoreapp2.0\Collections_Generic.deps.json
+S:\BizRuntime\training\c#\Collections_Generic\Collections_Generic\bin\Debug\netcoreapp2.0\Collections_Generic.runtimeconfig.json
+S:\BizRuntime\training\c#\Collections_Generic\Collections_Generic\bin\Debug\netcoreapp2.0\Collections_Generic.runtimeconfig.dev.json
+S:\BizRuntime\training\c#\Collections_Generic\Collections_Generic\bin\Debug\netcoreapp2.0\Collections_Generic.dll
+S:\BizRuntime\training\c#\Collections_Generic\Collections_Generic\bin\Debug\netcoreapp2.0\Collections_Generic.pdb
+S:\BizRuntime\training\c#\Collections_Generic\Collections_Generic\obj\Debug\netcoreapp2.0\Collections_Generic.csprojAssemblyReference.cache
+S:\BizRuntime\training\c#\Collections_Generic\Collections_Generic\obj\Debug\netcoreapp2.0\Collections_Generic.csproj.CoreCompileInputs.cache
+S:\BizRuntime\training\c#\Collections_Generic\Collections_Generic\obj\Debug\netcoreapp2.0\Collections_Generic.AssemblyInfoInputs.cache
+S:\BizRuntime\training\c#\Collections_Generic\Collections_Generic\obj\Debug\netcoreapp2.0\Collections_Generic.AssemblyInfo.cs
+S:\BizRuntime\training\c#\Collections_Generic\Collections_Generic\obj\Debug\netcoreapp2.0\Collections_Generic.dll
+S:\BizRuntime\training\c#\Collections_Generic\Collections_Generic\obj\Debug\netcoreapp2.0\Collections_Generic.pdb

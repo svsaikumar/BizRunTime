@@ -1,0 +1,11 @@
+S:\BizRuntime\training\c#\interfaces\interfaces\bin\Debug\netcoreapp2.0\interfaces.deps.json
+S:\BizRuntime\training\c#\interfaces\interfaces\bin\Debug\netcoreapp2.0\interfaces.runtimeconfig.json
+S:\BizRuntime\training\c#\interfaces\interfaces\bin\Debug\netcoreapp2.0\interfaces.runtimeconfig.dev.json
+S:\BizRuntime\training\c#\interfaces\interfaces\bin\Debug\netcoreapp2.0\interfaces.dll
+S:\BizRuntime\training\c#\interfaces\interfaces\bin\Debug\netcoreapp2.0\interfaces.pdb
+S:\BizRuntime\training\c#\interfaces\interfaces\obj\Debug\netcoreapp2.0\interfaces.csprojAssemblyReference.cache
+S:\BizRuntime\training\c#\interfaces\interfaces\obj\Debug\netcoreapp2.0\interfaces.csproj.CoreCompileInputs.cache
+S:\BizRuntime\training\c#\interfaces\interfaces\obj\Debug\netcoreapp2.0\interfaces.AssemblyInfoInputs.cache
+S:\BizRuntime\training\c#\interfaces\interfaces\obj\Debug\netcoreapp2.0\interfaces.AssemblyInfo.cs
+S:\BizRuntime\training\c#\interfaces\interfaces\obj\Debug\netcoreapp2.0\interfaces.dll
+S:\BizRuntime\training\c#\interfaces\interfaces\obj\Debug\netcoreapp2.0\interfaces.pdb

@@ -1,0 +1,11 @@
+S:\BizRuntime\training\c#\methods\methods\obj\Debug\netcoreapp2.0\methods.csprojAssemblyReference.cache
+S:\BizRuntime\training\c#\methods\methods\obj\Debug\netcoreapp2.0\methods.csproj.CoreCompileInputs.cache
+S:\BizRuntime\training\c#\methods\methods\obj\Debug\netcoreapp2.0\methods.AssemblyInfoInputs.cache
+S:\BizRuntime\training\c#\methods\methods\obj\Debug\netcoreapp2.0\methods.AssemblyInfo.cs
+S:\BizRuntime\training\c#\methods\methods\bin\Debug\netcoreapp2.0\methods.deps.json
+S:\BizRuntime\training\c#\methods\methods\bin\Debug\netcoreapp2.0\methods.runtimeconfig.json
+S:\BizRuntime\training\c#\methods\methods\bin\Debug\netcoreapp2.0\methods.runtimeconfig.dev.json
+S:\BizRuntime\training\c#\methods\methods\bin\Debug\netcoreapp2.0\methods.dll
+S:\BizRuntime\training\c#\methods\methods\bin\Debug\netcoreapp2.0\methods.pdb
+S:\BizRuntime\training\c#\methods\methods\obj\Debug\netcoreapp2.0\methods.dll
+S:\BizRuntime\training\c#\methods\methods\obj\Debug\netcoreapp2.0\methods.pdb

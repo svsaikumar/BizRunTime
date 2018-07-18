@@ -1,0 +1,11 @@
+S:\BizRuntime\training\c#\indexers\indexers\bin\Debug\netcoreapp2.0\indexers.deps.json
+S:\BizRuntime\training\c#\indexers\indexers\bin\Debug\netcoreapp2.0\indexers.runtimeconfig.json
+S:\BizRuntime\training\c#\indexers\indexers\bin\Debug\netcoreapp2.0\indexers.runtimeconfig.dev.json
+S:\BizRuntime\training\c#\indexers\indexers\bin\Debug\netcoreapp2.0\indexers.dll
+S:\BizRuntime\training\c#\indexers\indexers\bin\Debug\netcoreapp2.0\indexers.pdb
+S:\BizRuntime\training\c#\indexers\indexers\obj\Debug\netcoreapp2.0\indexers.csprojAssemblyReference.cache
+S:\BizRuntime\training\c#\indexers\indexers\obj\Debug\netcoreapp2.0\indexers.csproj.CoreCompileInputs.cache
+S:\BizRuntime\training\c#\indexers\indexers\obj\Debug\netcoreapp2.0\indexers.AssemblyInfoInputs.cache
+S:\BizRuntime\training\c#\indexers\indexers\obj\Debug\netcoreapp2.0\indexers.AssemblyInfo.cs
+S:\BizRuntime\training\c#\indexers\indexers\obj\Debug\netcoreapp2.0\indexers.dll
+S:\BizRuntime\training\c#\indexers\indexers\obj\Debug\netcoreapp2.0\indexers.pdb
