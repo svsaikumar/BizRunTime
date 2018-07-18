@@ -1,0 +1,7 @@
+S:\BizRuntime\training\c#\network_programming_2\servers\bin\Debug\servers.exe.config
+S:\BizRuntime\training\c#\network_programming_2\servers\bin\Debug\servers.exe
+S:\BizRuntime\training\c#\network_programming_2\servers\bin\Debug\servers.pdb
+S:\BizRuntime\training\c#\network_programming_2\servers\obj\Debug\servers.csprojAssemblyReference.cache
+S:\BizRuntime\training\c#\network_programming_2\servers\obj\Debug\servers.csproj.CoreCompileInputs.cache
+S:\BizRuntime\training\c#\network_programming_2\servers\obj\Debug\servers.exe
+S:\BizRuntime\training\c#\network_programming_2\servers\obj\Debug\servers.pdb

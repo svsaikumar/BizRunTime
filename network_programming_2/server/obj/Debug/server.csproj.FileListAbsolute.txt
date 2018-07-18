@@ -1,0 +1,7 @@
+S:\BizRuntime\training\c#\network_programming_2\network_programming_2\obj\Debug\server.csprojAssemblyReference.cache
+S:\BizRuntime\training\c#\network_programming_2\network_programming_2\obj\Debug\server.csproj.CoreCompileInputs.cache
+S:\BizRuntime\training\c#\network_programming_2\network_programming_2\bin\Debug\network_programming_2.exe.config
+S:\BizRuntime\training\c#\network_programming_2\network_programming_2\bin\Debug\network_programming_2.exe
+S:\BizRuntime\training\c#\network_programming_2\network_programming_2\bin\Debug\network_programming_2.pdb
+S:\BizRuntime\training\c#\network_programming_2\network_programming_2\obj\Debug\network_programming_2.exe
+S:\BizRuntime\training\c#\network_programming_2\network_programming_2\obj\Debug\network_programming_2.pdb
