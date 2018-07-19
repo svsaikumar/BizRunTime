@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+
+
+
+
+
+    <p id="id1"></p>
+    <p id="id2"></p>
+    <script>
+        var x = "John";
+        var y = new String("John");
+
+        document.getElementById("id1").innerHTML = typeof x + "<br>" + typeof y;
+        document.getElementById("id2").innerHTML = (x === y);
+    </script>
+
+    <p id="id3"></p>
+    <p id="id4"></p>
+    <script>
+        var a = "John";
+        var b = "John";
+
+        document.getElementById("id3").innerHTML = typeof a + "<br>" + typeof b;
+        document.getElementById("id4").innerHTML = (a === b);
+    </script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+
+
+    <script>
+        var str = "  Hello World Test Java Lara  ";
+        var sub = str.substring(8, 14);
+        document.writeln(sub + "<br>");
+        var slice = str.slice(14,18);
+        document.writeln(slice + "<br>");
+        var substr = str.substr(1, 6)
+        document.writeln(substr + "<br>");
+
+        var replace = str.replace("java", "cshap");
+        document.writeln(replace + "<br>");
+
+        var cssen = str.replace(/Lara/i, "BizRunTime");
+        document.writeln(cssen + "<br>");
+
+        var upper = str.toUpperCase();
+        document.writeln(upper + "<br>");
+
+        var lower = str.toLowerCase();
+        document.writeln(lower + "<br>");
+
+        var concat = str.concat(" Job");
+        document.writeln(concat + "<br>");
+
+        var trim = str.trim();
+        document.writeln(trim + "<br>");
+
+        var char = str.charAt(5);
+        document.writeln(char + "<br>");
+
+        var code = str.charCodeAt(12);
+        document.writeln(code + "<br>");
+
+    </script>
+</body>
+</html>
