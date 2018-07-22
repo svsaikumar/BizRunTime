@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+
+    <script>
+        function student(id, firstName, lastName, age)
+        {
+            this.id = id;
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.age = age;
+            this.fullname = function ()
+                              {
+                                return this.firstName + " " + this.lastName;
+                              };
+        }
+
+        var s1 = new student(101, "sai", "kumar", 20);
+        var s2 = new student(102, "swetha", "reddy", 40);
+        document.writeln(s1.id + "," + s1.fullname() + "," + s1.age + "<br>");
+        document.writeln(s2.id + "," + s2.fullname() + "," + s2.age);
+    </script>
+    
+</body>
+</html>
