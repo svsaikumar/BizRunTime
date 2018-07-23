@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+
+    <p id="p1">u want to see the date and time.click the button</p>
+    <button id="b1" onclick="test(this)">click me</button>
+    <script>
+        function test(obj)
+        {
+            document.getElementById("b1").addEventListener("click", date());
+        }
+        function date()
+        {
+            document.getElementById("b1").innerHTML = Date();
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+
+    <p class="id1" style="display:none">this is first paragraph</p>
+    <p class="id1" style="display:none">this is second paragraph</p>
+    <p class="id1" style="display:none">this is third paragraph</p>
+    <p class="id1" style="display:none">this is fourth paragraph</p>
+    <h1 id="h1"></h1>
+    <script>
+        var x = document.querySelectorAll("p.id1");
+        document.getElementById("h1").innerHTML = x[0].innerHTML;
+    </script>
+
+    
+</body>
+</html>

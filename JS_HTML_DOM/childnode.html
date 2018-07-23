@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+
+    <h1 id="hd1">this is heading</h1>
+    <p id="p1"></p>
+
+    <script>
+        document.getElementById("p1").innerHTML = 
+           // document.getElementById("hd1").firstChild.nodeValue;
+        document.getElementById("hd1").childNodes[0].nodeValue;
+    </script>
+</body>
+</html>

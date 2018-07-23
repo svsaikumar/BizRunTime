@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+
+    <p id="p1">Hello EveryOne</p>
+    <button id="id1" onclick="test()">click me</button>
+    <script>
+        function test()
+        {
+            document.getElementById("id1").addEventListener("click", test1());
+            document.getElementById("id1").addEventListener("click", test2());
+
+        }
+        function test1()
+        {
+            alert("hello");
+        }
+        function test2()
+        {
+            alert("how are you");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+       
+    </style>
+</head>
+<body>
+
+        <p id="p1">Click the button to remove the event handler.</p>
+        <button id="b1" onclick="test2()">Remove</button>
+   
+    <p id="p2"></p>
+
+    <script>
+        document.getElementById("p1").addEventListener("mousemove", test1);
+        function test1()
+        {
+            document.getElementById("p2").innerHTML = Math.random();
+        }
+        function test2()
+        {
+            document.getElementById("p1").removeEventListener("mousemove", myFunction);
+        }
+    </script>
+
+</body>
+</html>
+
+
