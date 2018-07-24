@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+
+  
+    <h1 id="id1"></h1>
+
+    <script>
+        var myVar = setInterval(test, 300);
+        var count = 1;
+
+        function test()
+        {          
+            document.getElementById("id1").innerHTML = count++;
+        }
+    </script>
+
+</body>
+</html>

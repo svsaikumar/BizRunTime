@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+
+    <p>Click "Try it". Wait for given time. The page will alert "Hello".</p>
+    <p>Click "Stop" to prevent the first function to execute.</p>
+    <p>(You must click "Stop" before the given time is up.)</p>
+
+    <button onclick="myVar = setTimeout(test, 3000)">Try it</button>
+
+    <button onclick="clearTimeout(myVar)">Stop it</button>
+
+    <script>
+        function test()
+        {
+            alert("Hello");
+        }
+    </script>
+</body>
+</html>
