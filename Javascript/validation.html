@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+
+
+    <form action="regSuccess.html">
+        First Name:
+        <input type='text' name='firstName'> <br><br>
+
+      
+        Address:
+        <textarea name='address' cols='15' rows='5'></textarea> <br><br>
+        Gender:
+        <input type='radio' name='gender' value='m'>Male
+        <input type='radio' name='gender' value='f'>FeMale <br><br>
+        Skills:
+        <input type='checkbox' name='skills' value='c'>C
+        <input type='checkbox' name='skills' value='cpp'>C++
+        <input type='checkbox' name='skills' value='Java'>Java <br><br>
+        Education:
+        <select name='education'>
+            <option value='select'>-SELECT-</option>
+            <option value='mca'>MCA</option>
+            <option value='be'>BE</option>
+            <option value='b.tech'>B.Tech</option>
+            <br>
+        </select><br>
+
+        <input type='submit' value='submit' onclick='return validateReg()'> <br /><br>
+    </form>
+    <script>
+
+        function validateReg() {
+            var form = document.forms[0];
+            var fn = form.firstName;
+            if (fn.value.length == 0) {
+                alert("pls enter First name");
+                fn.focus();
+                return false;
+            }
+           
+            var add = form.address;
+            if (add.value.length == 0) {
+                alert("pls enter address");
+                add.focus();
+                return false;
+            }
+            var gen = form.gender;
+            var flag = true;
+            for (var i = 0; i < gen.length; i++) {
+                if (gen[i].checked) {
+                    flag = false;
+                    break;
+                }
+            }
+            if (flag) {
+                alert("pls select gender");
+                gen[0].focus();
+                return false;
+            }
+            var s1 = form.skills;
+            flag = true;
+            for (var i = 0; i < s1.length; i++) {
+                if (s1[i].checked) {
+                    flag = false;
+                    break;
+                }
+            }
+            if (flag) {
+                alert("pls select skills");
+                s1[0].focus();
+                return false;
+            }
+            var e1 = form.education;
+            if (e1.value == "select") {
+                alert("pls select education");
+                e1.focus();
+                return false;
+            }
+        }
+    </script>
+</body>
+</html>

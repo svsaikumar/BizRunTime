@@ -1,0 +1,177 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+
+        label {
+            display: inline-block;
+            width: 175px;
+            font-size: 20px;
+        }
+
+        input {
+            height: 20px;
+        }
+        .mandatory{
+            color:red;
+            font-size:18px;
+        }
+        
+        
+        
+    </style>
+    <script type="text/javascript">
+
+        function validate() {
+            var form = document.forms[0];
+
+
+            var id = form.id;
+            if (id.value.length == 0) {
+                alert("Please enter your id");
+                id.focus();
+                return false;
+            }
+
+            var name = form.fname;
+            if (name.value.length == 0) {
+                alert("please enter your Name");
+                fname.focus();
+                return false;
+            }
+
+            var gen = form.gender;
+            var flag = true;
+            for (var i = 0; i < gen.length; i++) {
+                if (gen[i].checked) {
+                    flag = false;
+                    break;
+                }
+            }
+            if (flag) {
+                alert("pls select gender");
+                gen[0].focus();
+                return false;
+            }
+
+            var qualification = form.qualification;
+            if (qualification.value == "-SELECT-") {
+                alert("please select your qualification");
+                qualification.focus();
+                return false;
+            }
+
+            var stream = form.stream;
+            if (stream.value.length == 0) {
+                alert("Please enter your Stream");
+                stream.focus();
+                return false;
+            }
+
+            var percentage = form.percentage;
+            if (percentage.value.length == 0) {
+                alert("Please enter your percentage");
+                percentage.focus();
+                return false;
+            }
+
+            var course = form.course;
+            if (course.value == "-SELECT-") {
+                alert("please select your course");
+                course.focus();
+                return false;
+            }
+
+            var email = form.email;
+            if (email.value.length == 0) {
+                alert("Please enter your email id");
+                email.focus();
+                return false;
+            }
+            else if (email.value.length <= 5) {
+                alert("Please a enter valid email address");
+                email.focus();
+                return false;
+            }
+
+            var mobileNumber = form.mobileNumber;
+            if (mobileNumber.value.length == 0) {
+                alert("Please enter your Mobile Number");
+                mobileNumber.focus();
+                return false;
+            }
+            else if (mobileNumber.value.length < 10) {
+                alert("Please enter a valid Mobile Number");
+                mobileNumber.focus();
+                return false;
+            }
+
+
+            var password1 = form.password1;
+            if (password1.value.length == 0) {
+                alert("Please enter a password");
+                password1.focus();
+                return false;
+            }
+
+            var password2 = form.password2;
+            if (password2.value.length == 0) {
+                alert("Please Re-enter your password");
+                password1.focus();
+                return false;
+            }
+
+            if (password1.value != password2.value) {
+                alert("Passwords not matched");
+                password2.focus();
+                return false;
+            }
+
+        }
+    </script>
+
+
+</head>
+
+<body style="background-color:gainsboro">
+    
+    <form>
+
+        <h1>Fill Up The Form</h1>
+        <p style="color:red">(Fields marked with asterisk (*) are mandatory to fill)</p>
+        <label>Enter id Number:</label><input type="text" name="id" />&nbsp;<sup class="mandatory" >*</sup><br><br>
+
+        <label>First Name:</label><input  id="idname" type="text" name="fname" size="20">&nbsp;<sup class="mandatory">*</sup><br><br>
+        <label>Last Name:</label><input id="idname" type="text" name="lname" size="20">&nbsp;<br><br>
+
+        <label>Gender:<sup class="mandatory">*</sup></label><input  type="radio" name="gender">Male&nbsp;&nbsp;
+        <input type="radio" name="gender">Female&nbsp;&nbsp;<br><br>
+
+        <label>Qualification:</label><select  name="qualification">
+
+            <option>-SELECT-</option>
+            <option>B.Tech/B.E</option>
+            <option>M.Tech</option>
+            <option>MCA</option>
+            <option>MBA</option>
+        </select> &nbsp;<sup class="mandatory">*</sup><br /><br />
+
+        <label>Stream:</label><input type="text" name="stream"><br><br>
+
+        <label>Percentage:</label><input type="text" name="percentage"><br><br>
+        <label>Course:</label><select   name="course">
+            <option>-SELECT-</option>
+            <option>CORE JAVA</option>
+            <option>J2EE</option>
+            <option>J2EE</option>
+        </select>&nbsp;<sup class="mandatory">*</sup><br><br>
+        <label>Email:</label><input type="text" name="email" size="30">&nbsp;<sup class="mandatory">*</sup><br><br>
+        <label>Mobile Number:</label><input  type="text" name="mobileNumber"> &nbsp;<sup class="mandatory">*</sup><br /><br />
+        <label>Create a Password:</label><input   type="password" name="password1"> &nbsp;<sup class="mandatory">*</sup><br /><br />
+        <label>Re-Type Password:</label><input type="password" name="password2"><br><br>
+        <label></label><input type="submit" value="check" onclick=" return validate()" />
+    </form>
+</body>
+</html>

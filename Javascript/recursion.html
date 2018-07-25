@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+
+
+
+    <script>
+        var num = 1;
+        var result = test();
+        function test()
+        {
+            if (num == 5)
+            {
+                return num;
+            }
+            else if(num <= 5)
+            {
+                num ++;
+                test()
+            }      
+        }
+        document.getElementById("id1").innerHTML = result;
+    </script>
+</head>
+<body>
+    
+    <p id="id1">this is paragraph</p>
+</body>
+</html>

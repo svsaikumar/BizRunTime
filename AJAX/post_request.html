@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+
+
+    <div id="demo">
+      
+    </div>
+    <form>
+        Name:<input id = "name" type="text" />
+        Age:<input id = "age" type="text" name="age"/>
+        <button type = "button" onclick="loadDoc()">Change Content</button>
+    </form>
+    <script>
+	
+        function loadDoc() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () 
+			{
+                if (this.readyState == 4 && this.status == 200)
+				{
+                    document.getElementById("demo").innerHTML = this.responseText;
+                }
+            };
+            var namevalue = encodeURIComponent(document.getElementById("name").value);
+            var agevalue = encodeURIComponent(document.getElementById("age").value);
+            var parameters = "name=" + namevalue + "&age=" + agevalue;
+            xhttp.open("POST", "http://localhost//post.txt", true);
+            xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            xhttp.send(parameters);
+        }
+    </script>
+
+</body>
+</html>

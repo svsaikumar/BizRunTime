@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CATALOG>
+  <MOVIE>
+    <TITLE>AARYA</TITLE>
+    <ARTIST>ALLU ARJUN</ARTIST>
+   
+  </MOVIE>
+ 
+  <MOVIE>
+    <TITLE>ORANGE</TITLE>
+    <ARTIST>RAM CHARAM </ARTIST>
+    
+  </MOVIE>
+  <MOVIE>
+    <TITLE>JALSA</TITLE>
+    <ARTIST>PAWAN KALYAN </ARTIST>   
+  </MOVIE>
+
+  <MOVIE>
+    <TITLE>BAAHUBALI</TITLE>
+    <ARTIST>PRABHAS</ARTIST>
+  </MOVIE>
+</CATALOG>
+ 
+ 
+ 

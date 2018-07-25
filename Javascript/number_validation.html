@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+
+    <h3>Enter Mobile Number:</h3>
+    <input id="id2" type="text" name="number" />
+    <button onclick="validate()">check</button>
+    <p id="id1"></p>
+    <script>
+        function validate() {
+            var num = document.getElementById("id2").value;
+
+            if (isNaN(num))
+            {
+                document.getElementById("id1").innerHTML = "only digits are allowed";
+            }
+            else if (num.length < 10)
+            {
+                document.getElementById("id1").innerHTML = "Mobile number should be 10 digits";              
+            }
+            else
+            {
+                document.getElementById("id1").innerHTML = "Mobile number successfully validated";
+            }
+        }
+    </script>
+
+</body>
+</html>

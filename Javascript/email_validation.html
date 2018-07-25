@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+    <h3>Enter email address</h3>
+    <form onsubmit=" validate()">
+        Email: <input type="text" name="email"><br /><br />
+        <input type="submit" value="check">
+    </form>
+    <script>
+        function validate() {
+            var x = document.forms[0].email.value;
+            var atposition = x.indexOf("@");
+            var dotposition = x.lastIndexOf(".");
+            if (atposition < 1 || dotposition < atposition + 2 || dotposition + 2 >= x.length) {
+                alert("Please enter a valid e-mail address");
+            }
+            else {
+                alert('success');
+            }
+        }
+    </script>
+</body>
+
+
+</html>
