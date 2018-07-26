@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+
+
+    <script>
+
+        $(document).ready(function ()
+        {
+            $("#btn1").click(function ()
+            {
+                $("#p1").slideDown(5000);
+            });
+
+            $("btn2").click(function ()
+            {
+                $("#p1").stop();
+            });
+        });     
+    </script>
+</head>
+<body>
+    <h3>click the button to the stop effect</h3>
+    <button id="btn1">click me to slide</button>
+    <button id="btn2">click me to stop</button>
+    <p id="p1" style="display:none">i am paragraph</p>
+</body>
+</html>

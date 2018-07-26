@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+
+
+    <script>
+       
+        $(document).ready(function ()
+        {
+            $("button").click(function ()
+            {
+                var name = document.getElementById("id1").val();
+                $("p").text(name);
+            });
+        });
+    </script>
+</head>
+<body>
+    <h3>click the button to the text effect</h3>
+    Enter your name:<input id="id1" type="text" name="name"/>
+    <button>click me</button>
+    <p>i am paragraph</p>
+</body>
+</html>
