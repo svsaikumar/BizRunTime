@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <script src="https://unpkg.com/@reactivex/rxjs@5.3.0/dist/global/Rx.js"></script>
+    <button>Submit</button>
+</body>
+
+</html>
+<script>
+    var button = document.querySelector('button');
+    Rx.Observable.fromEvent(button, 'click')
+        .throttleTime(1000)
+        .map((data) => { return data.clientY })
+        .subscribe((coordinate) => console.log(coordinate));
+</script>

@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <script src="https://unpkg.com/@reactivex/rxjs@5.3.0/dist/global/Rx.js"></script>
+    <button>Submit</button>
+</body>
+
+</html>
+<script>
+    var button = document.querySelector('button');
+
+    var observer = {
+        next: function (value) {
+            console.log(value);
+        },
+        error: function (error) {
+            console.log(error);
+        },
+        complete: function (complete) {
+            console.log('completed');
+        }
+    };
+   
+    Rx.Observable.create(function (obs) {
+        obs.next("next");
+        obs.complete("completed");
+        obs.next("again next");
+
+    })
+    .subscribe(observer);
+</script>
