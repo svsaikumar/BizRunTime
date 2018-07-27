@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <style>
+      
+        div{
+            background-color:blue;
+        }
+    </style>
+    <script>
+
+
+
+        $(document).ready(function ()
+        {
+            
+            $("button").click(function ()
+            {
+                $("p").unwrap();
+            });
+        });
+    </script>
+</head>
+<body>
+    <div>
+        <p>i am paragraph</p>
+        <h3>i am h3 heading</h3>
+    </div>
+    <button>click me</button>
+   
+</body>
+</html>

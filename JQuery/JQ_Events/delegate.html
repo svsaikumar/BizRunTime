@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+
+        $(document).ready(function () {
+
+            $("body").delegate("p", "click", function ()
+            {
+                $("p").after("<p>Click me for another paragraph.</p>");
+            });
+        });
+    </script>
+
+</head>
+<body>
+    <p>This is a single paragraph. Click me for next.</p>
+  
+</body>
+</html>  

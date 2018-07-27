@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <style>
+        p{
+            background-color:blue;
+        }
+        
+    </style>
+    <script>
+
+
+
+        $(document).ready(function ()
+        {
+            $("button").click(function ()
+            {
+                $("p").wrap("<h1></h1>");
+            });
+        });
+    </script>
+</head>
+<body>
+    <p>i am paragraph</p>
+    <button>click me</button>
+</body>
+</html>

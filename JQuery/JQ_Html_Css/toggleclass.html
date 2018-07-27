@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+
+
+
+
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("p:first").toggleClass("class1");
+            });
+        });
+    </script>
+    <style>
+        .class1 {
+            font-size: 200%;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is a heading</h1>
+    <p>This is a first paragraph.</p>
+    <p>This is second paragraph.</p>
+    <button>click me to toggle a class</button>
+</body>
+</html>

@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>change demo</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+
+
+        $(document).ready(function ()
+        {
+            $("select").change(function ()
+            {                
+                alert("You selected: " + document.getElementById("id1").value);
+            });
+        });
+        
+    </script>
+
+
+</head>
+<body>
+    <select id="id1" name="colors">
+        <option>red</option>
+        <option selected="selected">green</option>
+        <option>blue</option>
+        <option>orange</option>
+        <option>white</option>
+        
+    </select>
+    <p id="p1"></p>
+    
+</body>
+</html>    

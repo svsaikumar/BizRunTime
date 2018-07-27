@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+
+
+        $(document).ready(function ()
+        {
+            $("form").submit(function ()
+            {
+                alert("your form submitted successfully");
+            });
+        });
+    </script>
+</head>
+<body>
+    <form>
+        Name:<input type="text" name="name" /><br /><br />
+        Age:<input type="text" name="age" /><br /><br />
+        Mobile No:<input type="text" name="number" /><br /><br />
+        <input type="submit" value="click to submit" />
+    </form>
+</body>
+</html>
