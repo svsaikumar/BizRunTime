@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <script src="https://unpkg.com/@reactivex/rxjs@5.3.0/dist/global/Rx.js"></script>
+</head>
+<body>
+    <button>Submit</button>
+</body>
+</html>
+<script>
+    var promise = new Promise((resolve, reject) => {
+        setTimeout(()=> {
+            resolve('resolved!')
+        },1000)
+    });
+    var obsvPromise = Rx.Observable.fromPromise(promise)
+    obsvPromise.subscribe(result => console.log(result))
+</script>

@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://unpkg.com/@reactivex/rxjs@5.3.0/dist/global/Rx.js"></script>
+</head>
+<body>
+    Enter something:<input type="text" />
+
+    <script>
+        var input = document.querySelector('input');
+        var observable = Rx.Observable.fromEvent(input, 'input');
+
+        observable.subscribe({
+            next: function (event) {
+                console.log(event.target.value);
+            }
+        });
+    </script>
+</body>
+</html>

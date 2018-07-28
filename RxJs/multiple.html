@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://unpkg.com/@reactivex/rxjs@5.3.0/dist/global/Rx.js"></script>
+</head>
+<body>
+
+    <script>
+        var foo = Rx.Observable.create(function (observer) {
+            console.log('Hello');
+            observer.next(42);
+            observer.next(100); 
+            observer.next(200);
+        });
+
+        console.log('before');
+        foo.subscribe(function (x) {
+            console.log(x);
+        });
+        console.log('after');
+    </script>
+</body>
+</html>
