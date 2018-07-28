@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('button').click(function () {
+                $("p").filter(".class1").css("background-color", "red")
+            });
+        });
+    </script>
+
+</head>
+<body>
+
+    <p >This is a first paragraph.</p>
+    <p class ="class1">This is a second paragraph.</p>
+    <p>This is a third paragraph.</p>
+    <p class ="class1">This is a fourth paragraph.</p>
+
+    <button>click me</button>
+</body>
+</html>
