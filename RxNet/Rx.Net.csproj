@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BA20D2DC-36B0-4F3C-9C36-72FB85E6349E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>RxNet</RootNamespace>
+    <AssemblyName>RxNet</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>RxNet.takelast</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Reactive, Version=4.0.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, processorArchitecture=MSIL">
+      <HintPath>..\Rx.Net\packages\System.Reactive.4.0.0\lib\net46\System.Reactive.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="All_Ex.cs" />
+    <Compile Include="behaviourSubject.cs" />
+    <Compile Include="Contains_Ex.cs" />
+    <Compile Include="Count.cs" />
+    <Compile Include="Distinct.cs" />
+    <Compile Include="Distinct_UntilChanged.cs" />
+    <Compile Include="Ignore_Elements.cs" />
+    <Compile Include="Observable_Empty.cs" />
+    <Compile Include="Implict_Contract_Complete.cs" />
+    <Compile Include="MinMax.cs" />
+    <Compile Include="create.cs" />
+    <Compile Include="DerivingObservable.cs" />
+    <Compile Include="Implementing_IObservable.cs" />
+    <Compile Include="Interval.cs" />
+    <Compile Include="dispose.cs" />
+    <Compile Include="MyDisposable.cs" />
+    <Compile Include="MyObserver.cs" />
+    <Compile Include="Obervable_Range.cs" />
+    <Compile Include="Observable._Create.cs" />
+    <Compile Include="Observable_Interval.cs" />
+    <Compile Include="Observable_Never.cs" />
+    <Compile Include="Observable_Range.cs" />
+    <Compile Include="Observable_Start.cs" />
+    <Compile Include="Observable_Start_Time.cs" />
+    <Compile Include="Observable_Throw.cs" />
+    <Compile Include="Observable_Timer.cs" />
+    <Compile Include="Observer.cs" />
+    <Compile Include="Observer_Event.cs" />
+    <Compile Include="OnError_Notification.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReplaySubject.cs" />
+    <Compile Include="replaySubjectBuffer.cs" />
+    <Compile Include="Any_Ex.cs" />
+    <Compile Include="asyncSubject.cs" />
+    <Compile Include="Observable_Return.cs" />
+    <Compile Include="Rx7.cs" />
+    <Compile Include="Rx9.cs" />
+    <Compile Include="sequence.cs" />
+    <Compile Include="skip.cs" />
+    <Compile Include="skiplast.cs" />
+    <Compile Include="skipwhile.cs" />
+    <Compile Include="subject.cs" />
+    <Compile Include="Subject_.cs" />
+    <Compile Include="subscribing.cs" />
+    <Compile Include="take.cs" />
+    <Compile Include="takelast.cs" />
+    <Compile Include="takewhile.cs" />
+    <Compile Include="test1.cs" />
+    <Compile Include="TimeSpan.cs" />
+    <Compile Include="unfold.cs" />
+    <Compile Include="Unsubscribe.cs" />
+    <Compile Include="where.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
