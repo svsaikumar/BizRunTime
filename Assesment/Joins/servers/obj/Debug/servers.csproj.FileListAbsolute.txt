@@ -1,0 +1,7 @@
+C:\Users\saiku\OneDrive\Desktop\Assesment\Joins\servers\bin\Debug\servers.exe.config
+C:\Users\saiku\OneDrive\Desktop\Assesment\Joins\servers\bin\Debug\servers.exe
+C:\Users\saiku\OneDrive\Desktop\Assesment\Joins\servers\bin\Debug\servers.pdb
+C:\Users\saiku\OneDrive\Desktop\Assesment\Joins\servers\obj\Debug\servers.csprojAssemblyReference.cache
+C:\Users\saiku\OneDrive\Desktop\Assesment\Joins\servers\obj\Debug\servers.csproj.CoreCompileInputs.cache
+C:\Users\saiku\OneDrive\Desktop\Assesment\Joins\servers\obj\Debug\servers.exe
+C:\Users\saiku\OneDrive\Desktop\Assesment\Joins\servers\obj\Debug\servers.pdb

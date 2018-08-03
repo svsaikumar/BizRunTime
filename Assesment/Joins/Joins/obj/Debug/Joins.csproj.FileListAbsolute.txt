@@ -1,0 +1,7 @@
+C:\Users\saiku\OneDrive\Desktop\Assesment\Joins\Joins\bin\Debug\Joins.exe.config
+C:\Users\saiku\OneDrive\Desktop\Assesment\Joins\Joins\bin\Debug\Joins.exe
+C:\Users\saiku\OneDrive\Desktop\Assesment\Joins\Joins\bin\Debug\Joins.pdb
+C:\Users\saiku\OneDrive\Desktop\Assesment\Joins\Joins\obj\Debug\Joins.csprojAssemblyReference.cache
+C:\Users\saiku\OneDrive\Desktop\Assesment\Joins\Joins\obj\Debug\Joins.csproj.CoreCompileInputs.cache
+C:\Users\saiku\OneDrive\Desktop\Assesment\Joins\Joins\obj\Debug\Joins.exe
+C:\Users\saiku\OneDrive\Desktop\Assesment\Joins\Joins\obj\Debug\Joins.pdb
