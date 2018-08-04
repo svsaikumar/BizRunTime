@@ -1,0 +1,11 @@
+S:\BizRuntime\training\ASP.NET_CORE_2\ASP.NET_CORE_2\bin\Debug\netcoreapp2.0\ASP.NET_CORE_2.deps.json
+S:\BizRuntime\training\ASP.NET_CORE_2\ASP.NET_CORE_2\bin\Debug\netcoreapp2.0\ASP.NET_CORE_2.runtimeconfig.json
+S:\BizRuntime\training\ASP.NET_CORE_2\ASP.NET_CORE_2\bin\Debug\netcoreapp2.0\ASP.NET_CORE_2.runtimeconfig.dev.json
+S:\BizRuntime\training\ASP.NET_CORE_2\ASP.NET_CORE_2\bin\Debug\netcoreapp2.0\ASP.NET_CORE_2.dll
+S:\BizRuntime\training\ASP.NET_CORE_2\ASP.NET_CORE_2\obj\Debug\netcoreapp2.0\ASP.NET_CORE_2.csprojAssemblyReference.cache
+S:\BizRuntime\training\ASP.NET_CORE_2\ASP.NET_CORE_2\obj\Debug\netcoreapp2.0\ASP.NET_CORE_2.csproj.CoreCompileInputs.cache
+S:\BizRuntime\training\ASP.NET_CORE_2\ASP.NET_CORE_2\obj\Debug\netcoreapp2.0\ASP.NET_CORE_2.AssemblyInfoInputs.cache
+S:\BizRuntime\training\ASP.NET_CORE_2\ASP.NET_CORE_2\obj\Debug\netcoreapp2.0\ASP.NET_CORE_2.AssemblyInfo.cs
+S:\BizRuntime\training\ASP.NET_CORE_2\ASP.NET_CORE_2\bin\Debug\netcoreapp2.0\ASP.NET_CORE_2.pdb
+S:\BizRuntime\training\ASP.NET_CORE_2\ASP.NET_CORE_2\obj\Debug\netcoreapp2.0\ASP.NET_CORE_2.dll
+S:\BizRuntime\training\ASP.NET_CORE_2\ASP.NET_CORE_2\obj\Debug\netcoreapp2.0\ASP.NET_CORE_2.pdb

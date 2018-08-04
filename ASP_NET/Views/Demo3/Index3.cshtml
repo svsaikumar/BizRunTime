@@ -1,0 +1,54 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" charset="utf-8" />
+    <title>Index</title>
+</head>
+<body>
+    <h3>Product Info</h3>
+    <table border="1" cellpadding="2" cellspacing="2" style="border-collapse:collapse">
+        <tr>
+            <td>ID</td>
+            <td>@ViewBag.product.Id</td>
+        </tr>
+
+
+        <tr>
+            <td>Name</td>
+            <td>@ViewBag.product.Name</td>
+        </tr>
+
+
+        <tr>
+            <td>Photo</td>
+            <td><img src="~/images/@ViewBag.product.Photo" width="60" /></td>
+        </tr>
+
+
+        <tr>
+            <td>Price</td>
+            <td>@ViewBag.product.Price</td>
+        </tr>
+
+
+        <tr>
+            <td>Quantity</td>
+            <td>@ViewBag.product.Quantity</td>
+        </tr>
+
+
+        <tr>
+            <td>Total</td>
+            <td>@(ViewBag.product.Price * ViewBag.product.Quantity)</td>
+        </tr>
+
+
+    </table>
+   
+</body>
+</html>
