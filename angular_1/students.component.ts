@@ -1,0 +1,20 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-students',
+  templateUrl: './students.component.html',
+  styleUrls: ['./students.component.css']
+})
+export class StudentsComponent implements OnInit {
+
+
+  test()
+  {
+    return "i am from students";
+  }
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}

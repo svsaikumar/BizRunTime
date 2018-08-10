@@ -1,0 +1,14 @@
+button
+		{
+			border:none;
+			font-size:20px; 
+			background-color:gray,transparent;
+			color:black;
+			float: right;
+			margin:2.5px;
+        }
+        button:hover
+		{
+			color:tomato;
+			
+		}
