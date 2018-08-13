@@ -3,6 +3,7 @@ import { Component } from "@angular/core";
 @Component({
     selector:'binding1',
     template:`
+    <h1>heading</h1>
     <h1 style='color:blue;font-size:60px'>
         Hello h1(inline)
     </h1>

@@ -11,7 +11,7 @@ import { Component } from "@angular/core";
         <div class='s1'>I am from Div</div>
         <span class='s1'>I am from span</span>
         <p class='s1'>I am from para</p>
-        <h1 class='s1'>I am from para</p>
+        <h1 class='s1'>I am from para</h1>
         <span class='s1'>I am from span</span>
     
     
