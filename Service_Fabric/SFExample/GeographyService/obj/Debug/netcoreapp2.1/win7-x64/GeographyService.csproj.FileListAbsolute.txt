@@ -1,0 +1,17 @@
+S:\BizRuntime\training\Service_Fabric\SFExample\GeographyService\obj\Debug\netcoreapp2.1\win7-x64\GeographyService.csproj.CoreCompileInputs.cache
+S:\BizRuntime\training\Service_Fabric\SFExample\GeographyService\obj\Debug\netcoreapp2.1\win7-x64\GeographyService.AssemblyInfoInputs.cache
+S:\BizRuntime\training\Service_Fabric\SFExample\GeographyService\obj\Debug\netcoreapp2.1\win7-x64\GeographyService.AssemblyInfo.cs
+S:\BizRuntime\training\Service_Fabric\SFExample\GeographyService\bin\Debug\netcoreapp2.1\win7-x64\hostpolicy.dll
+S:\BizRuntime\training\Service_Fabric\SFExample\GeographyService\bin\Debug\netcoreapp2.1\win7-x64\hostfxr.dll
+S:\BizRuntime\training\Service_Fabric\SFExample\GeographyService\bin\Debug\netcoreapp2.1\win7-x64\GeographyService.exe
+S:\BizRuntime\training\Service_Fabric\SFExample\GeographyService\bin\Debug\netcoreapp2.1\win7-x64\GeographyService.deps.json
+S:\BizRuntime\training\Service_Fabric\SFExample\GeographyService\bin\Debug\netcoreapp2.1\win7-x64\GeographyService.runtimeconfig.json
+S:\BizRuntime\training\Service_Fabric\SFExample\GeographyService\bin\Debug\netcoreapp2.1\win7-x64\GeographyService.runtimeconfig.dev.json
+S:\BizRuntime\training\Service_Fabric\SFExample\GeographyService\bin\Debug\netcoreapp2.1\win7-x64\GeographyService.dll
+S:\BizRuntime\training\Service_Fabric\SFExample\GeographyService\obj\Debug\netcoreapp2.1\win7-x64\GeographyService.csprojAssemblyReference.cache
+S:\BizRuntime\training\Service_Fabric\SFExample\GeographyService\obj\Debug\netcoreapp2.1\win7-x64\GeographyService.RazorAssemblyInfo.cache
+S:\BizRuntime\training\Service_Fabric\SFExample\GeographyService\obj\Debug\netcoreapp2.1\win7-x64\GeographyService.RazorAssemblyInfo.cs
+S:\BizRuntime\training\Service_Fabric\SFExample\GeographyService\obj\Debug\netcoreapp2.1\win7-x64\GeographyService.RazorTargetAssemblyInfo.cache
+S:\BizRuntime\training\Service_Fabric\SFExample\GeographyService\bin\Debug\netcoreapp2.1\win7-x64\GeographyService.pdb
+S:\BizRuntime\training\Service_Fabric\SFExample\GeographyService\obj\Debug\netcoreapp2.1\win7-x64\GeographyService.dll
+S:\BizRuntime\training\Service_Fabric\SFExample\GeographyService\obj\Debug\netcoreapp2.1\win7-x64\GeographyService.pdb
