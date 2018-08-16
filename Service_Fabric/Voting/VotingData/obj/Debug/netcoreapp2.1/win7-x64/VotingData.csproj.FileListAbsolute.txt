@@ -1,0 +1,16 @@
+S:\BizRuntime\training\Service_Fabric\Voting\VotingData\obj\Debug\netcoreapp2.1\win7-x64\VotingData.csproj.CoreCompileInputs.cache
+S:\BizRuntime\training\Service_Fabric\Voting\VotingData\obj\Debug\netcoreapp2.1\win7-x64\VotingData.AssemblyInfoInputs.cache
+S:\BizRuntime\training\Service_Fabric\Voting\VotingData\obj\Debug\netcoreapp2.1\win7-x64\VotingData.AssemblyInfo.cs
+S:\BizRuntime\training\Service_Fabric\Voting\VotingData\bin\Debug\netcoreapp2.1\win7-x64\hostpolicy.dll
+S:\BizRuntime\training\Service_Fabric\Voting\VotingData\bin\Debug\netcoreapp2.1\win7-x64\hostfxr.dll
+S:\BizRuntime\training\Service_Fabric\Voting\VotingData\bin\Debug\netcoreapp2.1\win7-x64\VotingData.exe
+S:\BizRuntime\training\Service_Fabric\Voting\VotingData\bin\Debug\netcoreapp2.1\win7-x64\VotingData.deps.json
+S:\BizRuntime\training\Service_Fabric\Voting\VotingData\bin\Debug\netcoreapp2.1\win7-x64\VotingData.runtimeconfig.json
+S:\BizRuntime\training\Service_Fabric\Voting\VotingData\bin\Debug\netcoreapp2.1\win7-x64\VotingData.runtimeconfig.dev.json
+S:\BizRuntime\training\Service_Fabric\Voting\VotingData\bin\Debug\netcoreapp2.1\win7-x64\VotingData.dll
+S:\BizRuntime\training\Service_Fabric\Voting\VotingData\obj\Debug\netcoreapp2.1\win7-x64\VotingData.RazorAssemblyInfo.cache
+S:\BizRuntime\training\Service_Fabric\Voting\VotingData\obj\Debug\netcoreapp2.1\win7-x64\VotingData.RazorAssemblyInfo.cs
+S:\BizRuntime\training\Service_Fabric\Voting\VotingData\obj\Debug\netcoreapp2.1\win7-x64\VotingData.RazorTargetAssemblyInfo.cache
+S:\BizRuntime\training\Service_Fabric\Voting\VotingData\bin\Debug\netcoreapp2.1\win7-x64\VotingData.pdb
+S:\BizRuntime\training\Service_Fabric\Voting\VotingData\obj\Debug\netcoreapp2.1\win7-x64\VotingData.dll
+S:\BizRuntime\training\Service_Fabric\Voting\VotingData\obj\Debug\netcoreapp2.1\win7-x64\VotingData.pdb
