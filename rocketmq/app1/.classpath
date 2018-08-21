@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="S:/softwares/rocketmq-all-4.1.0-incubating/lib/commons-cli-1.2.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/rocketmq-all-4.1.0-incubating/lib/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/rocketmq-all-4.1.0-incubating/lib/fastjson-1.2.29.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/rocketmq-all-4.1.0-incubating/lib/guava-19.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/rocketmq-all-4.1.0-incubating/lib/javassist-3.20.0-GA.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/rocketmq-all-4.1.0-incubating/lib/jna-4.2.2.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/rocketmq-all-4.1.0-incubating/lib/logback-classic-1.0.13.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/rocketmq-all-4.1.0-incubating/lib/logback-core-1.0.13.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/rocketmq-all-4.1.0-incubating/lib/netty-all-4.0.36.Final.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/rocketmq-all-4.1.0-incubating/lib/openmessaging-api-0.1.0-alpha.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/rocketmq-all-4.1.0-incubating/lib/rocketmq-broker-4.2.0-incubating-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/rocketmq-all-4.1.0-incubating/lib/rocketmq-client-4.2.0-incubating-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/rocketmq-all-4.1.0-incubating/lib/rocketmq-common-4.2.0-incubating-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/rocketmq-all-4.1.0-incubating/lib/rocketmq-example-4.2.0-incubating-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/rocketmq-all-4.1.0-incubating/lib/rocketmq-filter-4.2.0-incubating-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/rocketmq-all-4.1.0-incubating/lib/rocketmq-filtersrv-4.2.0-incubating-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/rocketmq-all-4.1.0-incubating/lib/rocketmq-namesrv-4.2.0-incubating-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/rocketmq-all-4.1.0-incubating/lib/rocketmq-openmessaging-4.2.0-incubating-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/rocketmq-all-4.1.0-incubating/lib/rocketmq-remoting-4.2.0-incubating-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/rocketmq-all-4.1.0-incubating/lib/rocketmq-srvutil-4.2.0-incubating-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/rocketmq-all-4.1.0-incubating/lib/rocketmq-store-4.2.0-incubating-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/rocketmq-all-4.1.0-incubating/lib/rocketmq-tools-4.2.0-incubating-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/rocketmq-all-4.1.0-incubating/lib/slf4j-api-1.7.5.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

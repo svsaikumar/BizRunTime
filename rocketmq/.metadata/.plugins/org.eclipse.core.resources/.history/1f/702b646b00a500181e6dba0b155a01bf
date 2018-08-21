@@ -1,0 +1,43 @@
+
+import org.apache.rocketmq.client.ClientConfig;
+import org.apache.rocketmq.client.QueryResult;
+import org.apache.rocketmq.client.exception.MQBrokerException;
+import org.apache.rocketmq.client.exception.MQClientException;
+import org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl;
+import org.apache.rocketmq.client.producer.DefaultMQProducer;
+import org.apache.rocketmq.common.MixAll;
+import org.apache.rocketmq.common.message.Message;
+import org.apache.rocketmq.common.message.MessageDecoder;
+import org.apache.rocketmq.common.message.MessageExt;
+import org.apache.rocketmq.common.message.MessageId;
+import org.apache.rocketmq.common.message.MessageQueue;
+import org.apache.rocketmq.remoting.RPCHook;
+import org.apache.rocketmq.remoting.common.RemotingHelper;
+import org.apache.rocketmq.remoting.exception.RemotingException;
+
+import io.openmessaging.SendResult;
+
+
+public class SyncProducer 
+{
+    public static void main(String[] args) throws Exception 
+    {
+        //Instantiate with a producer group name.
+        DefaultMQProducer producer = new DefaultMQProducer("please_rename_unique_group_name");
+        //Launch the instance.
+        producer.start();
+        for (int i = 0; i < 100; i++) {
+            //Create a message instance, specifying topic, tag and message body.
+            Message msg = new Message("TopicTest" /* Topic */,
+                "TagA" /* Tag */,
+                ("Hello RocketMQ " +
+                    i).getBytes(RemotingHelper.DEFAULT_CHARSET) /* Message body */
+            );
+            //Call send message to deliver message to one of brokers.
+            SendResult sendResult = producer.send(msg);
+            System.out.printf("%s%n", sendResult);
+        }
+        //Shut down once the producer instance is not longer in use.
+        producer.shutdown();
+    }
+}
