@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="org.springframework.core.io.Resource"/>
+<fullyQualifiedTypeName name="org.springframework.core.io.FileSystemResource"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.BeanFactory"/>
+<fullyQualifiedTypeName name="com.nt.beans.WishMessageGenerator"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.xml.XmlBeanFactory"/>
+</qualifiedTypeNameHistroy>
