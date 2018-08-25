@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="org.apache.ignite.cache.query.annotations.QuerySqlField"/>
+<fullyQualifiedTypeName name="org.apache.ignite.IgniteException"/>
+<fullyQualifiedTypeName name="org.apache.ignite.Ignition"/>
+<fullyQualifiedTypeName name="org.apache.ignite.configuration.CacheConfiguration"/>
+<fullyQualifiedTypeName name="org.apache.ignite.cache.CacheAtomicityMode"/>
+<fullyQualifiedTypeName name="org.apache.ignite.Ignite"/>
+<fullyQualifiedTypeName name="org.apache.ignite.IgniteCache"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+</qualifiedTypeNameHistroy>

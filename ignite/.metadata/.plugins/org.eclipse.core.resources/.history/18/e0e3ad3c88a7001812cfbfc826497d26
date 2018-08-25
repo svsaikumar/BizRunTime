@@ -1,0 +1,11 @@
+package com.ignite;
+
+import org.apache.ignite.Ignite;
+
+public class IgniteWorld 
+{
+	try(Ignite ignite = Ignition.Start("examples/config/example-ignite.xml"))
+	{
+		
+	}
+}

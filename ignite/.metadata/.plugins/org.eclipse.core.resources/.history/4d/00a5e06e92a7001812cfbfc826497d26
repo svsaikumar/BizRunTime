@@ -1,0 +1,35 @@
+package com.ignite;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import org.apache.ignite.Ignite;
+import org.apache.ignite.Ignition;
+
+public class JDBC4 
+{
+	public static void main(String[] args) throws ClassNotFoundException, SQLException 
+	{
+		Ignite ignite = Ignition.start();
+		ignite.cluster().active(true);
+	
+		
+		
+		Class.forName("org.apache.ignite.IgniteJdbcThinDriver");
+		Connection conn = DriverManager.getConnection("jdbc:ignite:thin://192.168.1.9/");
+		
+		try (Statement stmt = conn.createStatement()) 
+		{
+		    try (ResultSet rs =//stmt.executeQuery("select * from EmployeeCreated"))
+		    stmt.executeQuery("SELECT p.id, p.name, p.age " +
+		    " FROM employee p"))    
+		    {
+		      while (rs.next())
+		         System.out.println(rs.getInt(1) + ", " + rs.getString(2)+","+rs.getInt(3));
+		    }
+		}
+	}
+}

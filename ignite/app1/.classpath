@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/annotations-13.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/cache-api-1.0.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/ignite-core-2.6.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/ignite-shmem-1.0.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/ignite-indexing/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/ignite-indexing/h2-1.4.195.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/ignite-indexing/ignite-indexing-2.6.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/ignite-indexing/lucene-analyzers-common-5.5.2.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/ignite-indexing/lucene-core-5.5.2.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/ignite-indexing/lucene-queryparser-5.5.2.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/ignite-spring/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/ignite-spring/ignite-spring-2.6.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/ignite-spring/spring-aop-4.3.16.RELEASE.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/ignite-spring/spring-beans-4.3.16.RELEASE.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/ignite-spring/spring-context-4.3.16.RELEASE.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/ignite-spring/spring-core-4.3.16.RELEASE.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/ignite-spring/spring-expression-4.3.16.RELEASE.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/ignite-spring/spring-jdbc-4.3.16.RELEASE.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/ignite-spring/spring-tx-4.3.16.RELEASE.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-spark/hadoop-common-2.6.5.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-spark/ignite-spark-2.6.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-spark/jackson-annotations-2.6.5.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-spark/json4s-core_2.11-3.5.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-spark/scala-library-2.11.8.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-spark/scala-reflect-2.11.8.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-spark/spark-catalyst_2.11-2.3.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-spark/spark-core_2.11-2.3.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-spark/spark-network-common_2.11-2.3.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-spark/spark-network-shuffle_2.11-2.3.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-spark/spark-sql_2.11-2.3.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-spark/spark-tags_2.11-2.3.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-web/ignite-web-2.6.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-web/tomcat-servlet-api-8.0.23.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/oraclexe/app/oracle/product/11.2.0/server/jdbc/lib/ojdbc5.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/oraclexe/app/oracle/product/11.2.0/server/jdbc/lib/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-aop/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-aop/aspectjrt-1.8.13.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-aop/aspectjweaver-1.8.13.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-aop/ignite-aop-2.6.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-aop/spring-aop-4.3.16.RELEASE.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-aop/spring-core-4.3.16.RELEASE.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-aws/aws-java-sdk-core-1.11.75.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-aws/aws-java-sdk-ec2-1.11.75.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-aws/aws-java-sdk-elasticloadbalancing-1.11.75.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-aws/aws-java-sdk-kms-1.11.75.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-aws/aws-java-sdk-s3-1.11.75.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-aws/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-aws/httpclient-4.5.1.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-aws/httpcore-4.4.3.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-aws/ignite-aws-2.6.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-aws/jackson-annotations-2.6.5.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-aws/jackson-core-2.6.5.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-aws/jackson-databind-2.6.5.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-aws/joda-time-2.8.1.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-camel/camel-core-2.16.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-camel/ignite-camel-2.6.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-cassandra-serializers/asm-5.0.3.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-cassandra-serializers/ignite-cassandra-serializers-2.6.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-cassandra-serializers/kryo-3.0.3.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-cassandra-serializers/minlog-1.3.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-cassandra-serializers/objenesis-2.1.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-cassandra-serializers/reflectasm-1.10.1.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-cassandra-store/cassandra-driver-core-3.0.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-cassandra-store/commons-beanutils-1.9.2.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-cassandra-store/guava-19.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-cassandra-store/ignite-cassandra-store-2.6.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-cassandra-store/metrics-core-3.0.2.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-cassandra-store/netty-buffer-4.0.33.Final.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-cassandra-store/netty-codec-4.0.33.Final.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-cassandra-store/netty-common-4.0.33.Final.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-cassandra-store/netty-handler-4.0.33.Final.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-cassandra-store/netty-transport-4.0.33.Final.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-cloud/cloudsigma-zrh-1.8.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-cloud/docker-1.9.3.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-cloud/google-compute-engine-1.9.3.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-cloud/ignite-cloud-2.6.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-cloud/jclouds-allcompute-2.0.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-direct-io/ignite-direct-io-2.6.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-direct-io/jna-4.5.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-flink/flink-clients_2.10-1.3.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-flink/flink-java-1.3.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-flink/flink-streaming-java_2.10-1.3.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-flink/ignite-flink-2.6.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-flume/flume-ng-core-1.7.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-flume/ignite-flume-2.6.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-gce/annotations-13.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-gce/cache-api-1.0.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-gce/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-gce/google-api-client-1.22.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-gce/google-api-services-storage-v1-rev92-1.22.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-gce/google-http-client-1.22.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-gce/google-http-client-jackson2-1.22.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-gce/google-oauth-client-1.22.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-gce/guava-jdk5-17.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-gce/httpclient-4.0.1.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-gce/httpcore-4.0.1.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-gce/ignite-gce-2.6.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-gce/jackson-core-2.6.5.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-gce/jsr305-1.3.9.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-jcl/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-jcl/ignite-jcl-2.6.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-jms11/geronimo-jms_1.1_spec-1.1.1.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-jms11/ignite-jms11-2.6.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-jta/ignite-jta-2.6.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-jta/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-kafka/connect-api-0.10.0.1.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-kafka/ignite-kafka-2.6.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-kafka/kafka_2.11-0.10.0.1.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-kubernetes/ignite-kubernetes-2.6.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-kubernetes/jackson-core-asl-1.9.13.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-kubernetes/jackson-mapper-asl-1.9.13.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-log4j/ignite-log4j-2.6.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-log4j/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-log4j2/ignite-log4j2-2.6.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-log4j2/log4j-api-2.8.1.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-log4j2/log4j-core-2.8.1.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-mesos/ignite-mesos-2.6.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-mesos/jetty-server-9.2.11.v20150529.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-mesos/mesos-0.22.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-ml/commons-rng-core-1.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-ml/commons-rng-simple-1.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-ml/core-1.1.2.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-ml/fastutil-7.0.12.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-ml/ignite-ml-2.6.0.jar"/>
+	<classpathentry kind="lib" path="S:/softwares/apache-ignite-fabric-2.6.0-bin/libs/optional/ignite-ml/SparseBitSet-1.0.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

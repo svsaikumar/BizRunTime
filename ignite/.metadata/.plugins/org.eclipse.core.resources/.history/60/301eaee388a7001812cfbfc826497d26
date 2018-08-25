@@ -1,0 +1,17 @@
+package com.ignite;
+
+import org.apache.ignite.Ignite;
+import org.apache.ignite.Ignition;
+import org.apache.ignite.IgniteCache;
+
+public class IgniteWorld 
+{
+	public static void main(String []args)\
+	{
+		try(Ignite ignite = Ignition.start("examples/config/example-ignite.xml"))
+		{
+			IgniteCache <Integer,String> cache = ignite.getOrCreateCache("mycache");
+		}
+	}
+	
+}

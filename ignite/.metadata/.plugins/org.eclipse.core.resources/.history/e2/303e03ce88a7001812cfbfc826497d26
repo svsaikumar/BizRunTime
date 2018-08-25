@@ -1,0 +1,16 @@
+package com.ignite;
+
+import org.apache.ignite.Ignite;
+import org.apache.ignite.Ignition;
+
+public class IgniteWorld 
+{
+	public static void main(String []args)\
+	{
+		try(Ignite ignite = Ignition.start("examples/config/example-ignite.xml"))
+		{
+			
+		}
+	}
+	
+}
