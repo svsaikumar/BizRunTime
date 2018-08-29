@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+
+<body>
+    <ul id="list">
+        <li>60</li>
+        <li>70</li>
+        <li>80</li>
+        <li>90</li>
+        <li>100</li>
+    </ul>
+
+    <script>
+        d3.select("#list").selectAll("li").data([10, 20, 30, 40, 50]).text(
+            function (d)
+            {
+                return d;
+            });
+    </script>
+</body>
+</html>
