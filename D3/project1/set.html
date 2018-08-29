@@ -1,0 +1,17 @@
+﻿<html>
+<head>
+    <script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+
+<body>
+
+    <script>
+         var fruits =  d3.set().add("mango")
+          .add("apple").add("orange");
+         console.log(fruits.has("grapes"));
+         console.log(fruits.remove("apple")); 
+         console.log(fruits.size());    
+         console.log(fruits.empty());   
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script>
+        d3.csv("./data/employee.csv", function (data)
+        {
+            for (var i = 0; i < data.length; i++)
+            {
+                console.log(data[i].Name);
+                console.log(data[i].Age);
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+﻿<html>
+<head>
+    <script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+
+<body>
+    <script>
+         var month = d3.map([{name: "jan"}, {name: "feb"}],
+            function(d) { return d.name; });
+         console.log(month.get("jan")); 
+         console.log(month.get("apr")); 
+         console.log(month.has("feb")); 
+
+         var map =  d3.map().set("fruit", "mango");
+         console.log(map.get("fruit")); 
+         console.log(map.remove("fruit")); 
+         console.log(map.size());   
+         console.log(map.empty());  
+    </script>
+</body>
+</html>
